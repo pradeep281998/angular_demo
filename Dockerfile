@@ -22,6 +22,6 @@ FROM nginx:latest
 COPY --from=node  /home/node/app/dist/angular-build  /usr/share/nginx/html
 
 
-EXPOSE 4200
+EXPOSE 4100
 
 
